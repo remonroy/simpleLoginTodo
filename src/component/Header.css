@@ -1,0 +1,21 @@
+.header>div>img {
+    width: 9rem;
+    margin-top: 10px;
+}
+
+.header {
+    width: 90vw;
+    margin: auto;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header>div:last-child>button {
+    background: red;
+    border: none;
+    padding: 5px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor:pointer;
+}

@@ -1,0 +1,83 @@
+.registerForm>div:last-child {
+    width: 31%;
+    padding: 3rem;
+    box-shadow: 1px -10px 25px rgba(201, 201, 201, 0.25), -1px 10px 25px rgba(147, 147, 147, 0.25);
+}
+.errorMessage {
+    text-align: center;
+    color: red;
+    background: orange;
+}
+.registerForm>div>img {
+    width: 31rem;
+}
+.submit>input[type="submit"] {
+    background: #1678CB;
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.login {
+    text-align: right;
+}
+.login>p>a {
+    color: #1678CB;
+}
+.submit {
+    text-align: center;
+}
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+textarea:focus, input:focus{
+    outline: none;
+}label {
+    border-bottom: 2px solid #ddd;
+    padding: 9px 16px;
+    margin: 0px 8px;
+}
+input[type="text"] {
+    width: 97%;
+    max-width: 100%;
+    height: 36px;
+    margin: 10px 0px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #ddd;
+}
+input[type="password"] {
+    width: 97%;
+    max-width: 100%;
+    height: 36px;
+    margin: 10px 0px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #ddd;
+}
+.registerForm {
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 800px) {
+    .registerForm {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .registerForm>div:last-child {width: 100%;padding: 0rem;}
+    .registerForm>div:last-child>h4{text-align: center;
+        font-size: 2rem;}
+        input[type="text"]{}
+        .submit>input[type="submit"]{font-size: 1.5rem;}
+        .registerForm>div {
+            
+        }
+}
